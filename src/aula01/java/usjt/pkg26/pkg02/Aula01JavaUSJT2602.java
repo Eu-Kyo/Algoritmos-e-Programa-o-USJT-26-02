@@ -1,4 +1,5 @@
-package aula01.java.usjt.pkg26.pkg02;
+package src.aula01.java.usjt.pkg26.pkg02;
+//package aula01.java.usjt.pkg26.pkg02;
 import java.util.Scanner;
 public class Aula01JavaUSJT2602 {
     public static void main(String[] args) {
