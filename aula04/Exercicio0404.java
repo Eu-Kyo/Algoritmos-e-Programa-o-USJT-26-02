@@ -12,13 +12,25 @@ public class Exercicio0404 {
         int num2 = numScanner.nextInt();
         int num3 = numScanner.nextInt();
         
-        if (num1 > num2 && num3 > num1) {
-            System.out.println("> "+ num3 + " é o maior número!");
-        }
-        if (num2 > num3 && num1 > num2) {
+        // Com certeza pode ser simplificado, mas foi o que eu consegui
+        if (num1 > num2 && num1 > num3) {
             System.out.println("> " + num1 + " é o maior número!");
-        } else {
-            System.out.println("> " + num2 + " é o maior número!");
         }
+        else{
+            if (num2>num3 ) {
+                System.out.println("> " + num2 + " é o maior número!");
+            }
+            else{
+                System.out.println("> " + num3 + " é o maior número!");
+            }
+        }
+
     }
 }
+
+/*
+    num1 > num2 > num3; 
+    se num1>num2 e num2>num3: num1 maior
+    senao num2>num3: num2 maior
+    senao: num3 maior
+*/
