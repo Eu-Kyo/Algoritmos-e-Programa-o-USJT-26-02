@@ -14,7 +14,7 @@ public class Arrays {
         Conversa.oiGente();
         Conversa.bomDIa("Caio");
         Conversa.xingamento(sc.next());
-    
+        sc.close();
     }
 
 

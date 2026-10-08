@@ -29,6 +29,6 @@ public class Exercicio2 {
         {
             System.out.println("Situação: Reprovado...");
         }
+        entrada.close();
     }
-     
 }

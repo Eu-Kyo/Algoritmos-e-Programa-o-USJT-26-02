@@ -29,6 +29,7 @@ public class Exercicio0405 {
         }
 
         System.out.println("> Os números ordenados são: "+ num1+", "+num2+", "+num3);
+        entrada.close();
     }    
 }
 

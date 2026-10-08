@@ -10,7 +10,7 @@ public class Aula01JavaUSJT2602 {
         Scanner entrada = new Scanner(System.in);
         int num = entrada.nextInt();
         System.out.println("Numero:"+ num);
-        
+        entrada.close();
     }
     
 }

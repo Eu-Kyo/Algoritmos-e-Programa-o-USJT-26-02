@@ -20,10 +20,8 @@ public class Screen {
                 System.out.println("Outro sistema operacional: " + os);
             }
         } catch (InterruptedException e) {
-            // TODO Auto-generated catch block
             e.printStackTrace();
         } catch (IOException e) {
-            // TODO Auto-generated catch block
             e.printStackTrace();
         }
     }

@@ -31,7 +31,7 @@ public class Exercicio0106 {
 
 
 
-        //sc.close();
+        sc.close();
     }   
     public static void imprimeProduto(){
         System.out.println("======== PRODUTOS ========");

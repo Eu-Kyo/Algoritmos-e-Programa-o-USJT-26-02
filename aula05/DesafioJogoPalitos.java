@@ -39,6 +39,7 @@ public class DesafioJogoPalitos {
                     System.out.println("> Ninguèm acertou!");
                 }
             }
+            entrada.close();
 
         }
         System.out.println("> Fim do jogo!");

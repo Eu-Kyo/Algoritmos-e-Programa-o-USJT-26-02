@@ -24,7 +24,7 @@ public class Exercicio0404 {
                 System.out.println("> " + num3 + " é o maior número!");
             }
         }
-
+        numScanner.close();
     }
 }
 

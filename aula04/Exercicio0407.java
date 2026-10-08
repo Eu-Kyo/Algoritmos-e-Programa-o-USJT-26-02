@@ -46,8 +46,7 @@ public class Exercicio0407 {
                 }
                 System.out.format("> %d/%d/%d é a mais antiga!", dia2, mes2, ano2);*/
             }
-
+            entrada.close();
         }
-        
     }
 }

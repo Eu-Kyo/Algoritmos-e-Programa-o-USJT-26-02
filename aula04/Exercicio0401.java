@@ -24,6 +24,6 @@ public class Exercicio0401 {
             salarioReaj = (salario + salario * 0.1);
             System.out.println("Seu salário reajustado é: " + salarioReaj + ", reajuste de 10%");
         }        
-
+        scanner.close();
     }
 }

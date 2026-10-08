@@ -37,6 +37,7 @@ public class Exercicio0406 {
                     }
                 }
             }
+            input.close();
         }
     }
 }

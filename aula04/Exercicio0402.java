@@ -28,6 +28,6 @@ public class Exercicio0402 {
                 }
             }
         }
-
+        entrada.close();
     }
 }

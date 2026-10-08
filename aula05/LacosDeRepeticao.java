@@ -15,5 +15,6 @@ public class LacosDeRepeticao {
         String nome = scanner.next();
         System.out.println(nome.length());
         System.out.println("> Inicial: " + nome.charAt(0));
-        }
+        scanner.close();    
+    }
 }

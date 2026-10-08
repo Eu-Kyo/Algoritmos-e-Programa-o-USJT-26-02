@@ -41,7 +41,7 @@ public class Sacola {
                 sacola[0] = 1; sacola[1] = 3; sacola[2] = 2; sacola[3] = 0; sacola[4] = 1;
                 imprimeSacola();
             }
-
+            sc.close();
     }
 
         // Screen.clear();
@@ -80,6 +80,7 @@ public class Sacola {
     public static void excluirProduto(){
         Scanner sc = new Scanner(System.in);
         imprimeSacola();
+        sc.close();
     }
 
     public static int imprimeMenu(){
@@ -94,7 +95,17 @@ public class Sacola {
                 System.out.println("OPÇÂO INVALIDA!");
             }
         }
+        sc.close();
         return opMenu;
         
     }
 }
+
+
+/*  Separar a Sacola e deixar como um método a parte
+    - Sacola com produtos, adicionar, remover
+    Menu bonitinho
+    Produtos com preços
+    - Total da compra
+    Main fica responsável por conectar todos esses métodos, objetos e classes
+*/

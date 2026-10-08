@@ -15,5 +15,6 @@ public class Exercicio0403 {
         }else{
             System.out.println("> " + ano + " não é um ano bissexto... :(");
         }
+        scanner.close();
     }
 }
